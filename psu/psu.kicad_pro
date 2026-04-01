@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.001
         }
       },
       "diff_pair_dimensions": [],
@@ -686,17 +686,13 @@
         "uuid": "4b18e165-8869-4241-bf9c-852e9b4c7a24"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C2",
     "variants": []
   },
   "sheets": [
     [
       "4b18e165-8869-4241-bf9c-852e9b4c7a24",
       "psu"
-    ],
-    [
-      "a3456fd6-b688-4de1-a123-251d48f5081a",
-      "documentation"
     ]
   ],
   "text_variables": {},

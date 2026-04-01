@@ -4430,13 +4430,83 @@
 			"jDHGGDMRL64ZY4wxxhhjjDET8eKaMcYYY4wxxhgz0f8HLrb+SbMjy0sAAAAASUVORK5CYII="
 		)
 	)
+	(label "RT"
+		(at 124.46 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0643d634-fb55-4556-bd72-3d87e9361cf1")
+	)
+	(label "Vout"
+		(at 179.07 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "644f3c02-c74c-42ed-b9c0-1accb11e339f")
+	)
+	(label "VCC"
+		(at 119.38 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6640f0de-3399-4bf4-8322-931ae81a545f")
+	)
+	(label "EN"
+		(at 116.84 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f1aec12-d76b-47f5-8e25-c685f0258cb7")
+	)
+	(label "FB"
+		(at 171.45 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c142c91-0006-4498-92d6-8907ced700ac")
+	)
+	(label "Vin"
+		(at 107.95 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e01bcc-4aab-4bb5-8c03-727a484d0205")
+	)
+	(label "PG"
+		(at 120.65 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f05e2b34-75f1-42f9-808f-e262ef8fd9f2")
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 114.3 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -4621,7 +4691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "vanalles:0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4654,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Mouser MPN" "963-MLASJ168BB7475KT "
+		(property "Mouser MPN" "581-KGM21AR71E475KU "
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4735,7 @@
 				)
 			)
 		)
-		(property "Mouser price/pcs" "0,32 €"
+		(property "Mouser price/pcs" "0,59 €"
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4676,7 +4746,7 @@
 				)
 			)
 		)
-		(property "Digikey MPN" "87-MSASJ168BB7475MTNA01CT-ND"
+		(property "Digikey MPN" "478-KGM21AR71E475KUCT-ND"
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4687,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Digikey price/pcs" "0,31 €"
+		(property "Digikey price/pcs" ""
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4698,7 +4768,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "C22399629"
+		(property "LCSC MPN" "C513766"
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4709,7 +4779,7 @@
 				)
 			)
 		)
-		(property "LCSC price/pcs" "0.27 € "
+		(property "LCSC price/pcs" "0.0137 €"
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5181,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -5190,7 +5260,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5337,6 +5407,154 @@
 			(project "psu"
 				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7254d6bd-9ebb-47fb-86b9-664641bc7821")
+		(property "Reference" "C2"
+			(at 85.09 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 85.09 44.4562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser MPN" "581-KGM21AR71E475KU "
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/pcs" "0,59 €"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey MPN" "478-KGM21AR71E475KUCT-ND"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey price/pcs" ""
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MPN" "C513766"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC price/pcs" "0.0137 €"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2d15bf1-4a28-4aad-9941-7793d2465c83")
+		)
+		(pin "2"
+			(uuid "190ef436-3427-432a-b4b2-abbe30d0d1ab")
+		)
+		(instances
+			(project "psu"
+				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5878,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -6281,154 +6499,6 @@
 			(project "psu"
 				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b616f76f-959a-41d6-a2ac-57f6b34d91da")
-		(property "Reference" "C2"
-			(at 85.09 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 85.09 44.4562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "vanalles:0603"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser MPN" "963-MLASJ168BB7475KT "
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser price/pcs" "0,32 €"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey MPN" "87-MSASJ168BB7475MTNA01CT-ND"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey price/pcs" "0,31 €"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC MPN" "C22399629"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC price/pcs" "0.27 € "
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "248238b5-39d0-44b4-bcf8-69981150b55c")
-		)
-		(pin "2"
-			(uuid "a329e16b-5b0e-4e0c-aa9a-af6c98a3c683")
-		)
-		(instances
-			(project "psu"
-				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7628,52 +7698,6 @@
 				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
 					(reference "C3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 245.11 152.4)
-		(size 38.1 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a3456fd6-b688-4de1-a123-251d48f5081a")
-		(property "Sheetname" "documentation"
-			(at 245.11 151.6884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "documentation.kicad_sch"
-			(at 245.11 164.4146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "psu"
-				(path "/4b18e165-8869-4241-bf9c-852e9b4c7a24"
-					(page "2")
 				)
 			)
 		)
