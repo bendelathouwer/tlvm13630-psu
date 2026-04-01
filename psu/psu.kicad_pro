@@ -409,11 +409,26 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "psu.kicad_sch",
+        "name": "psu",
+        "uuid": "4b18e165-8869-4241-bf9c-852e9b4c7a24"
+      }
+    ],
+    "used_designators": "U1,J1-2,R1-5,D1,#PWR1-16,C1-5,NT1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "4b18e165-8869-4241-bf9c-852e9b4c7a24",
+      "psu"
+    ],
+    [
+      "a3456fd6-b688-4de1-a123-251d48f5081a",
+      "documentation"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
