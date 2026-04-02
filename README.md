@@ -56,3 +56,6 @@ Also the feedback trace needs to be short and and bee kept away to again reduce 
 As you can see in the overview of the schematic I have a couple of DNP components, I think we all have been there we have our boards in our hands but then we realise some feature of the chip isn't brought out.
 So after our little cry we have to spend extra money and time on a new board. So with the DNP parts we have already have a footprint there and so we can easly adapt and continue with a smile.
 You will also notice I like to work with collors and net names , the reason behind that is realy simple. So I can see in a blink of an eye what net I am dealing with. This both in the layout side and schematic capture side of things.You will also notice formulas, tables and annotations. This is done so that I don't need to scroll trough the data sheet or have it open on the desktop. We all know engineers have limited desktop space.
+
+<img width="895" height="784" alt="image" src="https://github.com/user-attachments/assets/0d1341a7-685e-4782-a3a1-9cd1535685fb" />
+
