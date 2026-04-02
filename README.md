@@ -15,8 +15,7 @@ For the output circuitry we especialy want that to be suuper stable , why you ma
 
 <img width="861" height="476" alt="image" src="https://github.com/user-attachments/assets/b752a021-da03-4022-9980-4e703ddd2f6a" />
 
-As you can see from this block diagram of the chip  the feedbac circuitry is connected (via resistors) to the output. So as you can guess and see. 
-Any oscilation will upset the comperator which in turn will pass and upset the control circuitry
+As you can see from this block diagram of the chip  the feedbac circuitry is connected (via resistors) to the output. So as you can guess and see any oscilation will upset the comperator which in turn will pass and upset the control circuitry
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="607" height="779" alt="image" src="https://github.com/user-attachments/assets/698279ea-bc27-4b47-8393-5dbcf1813ebc" />
@@ -31,6 +30,9 @@ This is done for when powersequencing is needed , an example of power sequencing
 
 The next and last posebility is to add a voltage devider so we enable the UVLO(Under Voltage Lock Out). This will disable the convertor until a certain voltage is reached or disable the convertor if a voltage dips below a treshold.
 This is handy when we are using batterys for example 
+
+The next pin will be the Rt pin ,this pin sets the internal oscilator via a resistor. We need to be carful to choose this resistor. The higher the frequency the more emc and efficency  will become a problem BUT the components can be smaller.
+The lover the frequency the lower emc will be and the efficency will be higher BUT the components will be bigger 
 
 The next pin is the VCC pin which comes from the external regulator. Now the datasheet meantions multiple times that there shoudn't be any load connected to the VCC pin BUT in the application schematic in the datasheet it show a load (albeit a pull up).
 The EVM schematic shows no load even no pullup connected, so for me it is a mistery if you should or should not connect a load to it.
