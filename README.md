@@ -25,11 +25,12 @@ Now we will explain the controll pins a bit.
 The first pin we encounter is the Enable pin, which we can use in one of three ways/
 The frist way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present.
 The next posibility is to connect an external signal to the enable pin , this can be a microcontroller for example or this can be the power good signal of a upstream convertor.
-This is done for when powersequencing is needed , an example of power sequencing can be seen below 
+This is done for when powersequencing is needed , an example of power sequencing can be seen below.
 
 <img width="705" height="269" alt="image" src="https://github.com/user-attachments/assets/d3a3bb0a-7185-445d-bfdf-9a643fbe539a" />
 
-
+The next and last posebility is to add a voltage devider so we enable the UVLO(Under Voltage Lock Out). This will disable the convertor until a certain voltage is reached or disable the convertor if a voltage dips below a treshold.
+This is handy when we are using batterys for example 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
 ----------------------------------------
