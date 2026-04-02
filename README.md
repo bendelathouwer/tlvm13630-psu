@@ -35,7 +35,8 @@ This is handy when we are using batterys for example
 The next pin is the VCC pin which comes from the external regulator. Now the datasheet meantions multiple times that there shoudn't be any load connected to the VCC pin BUT in the application schematic in the datasheet it show a load (albeit a pull up).
 The EVM schematic shows no load even no pullup connected, so for me it is a mistery if you should or should not connect a load to it.
 
-Next pin is the power good pin , this pin
+Next pin is the power good pin , this pin is an open drain pin. This pin will indicate if the convertor works as intended or not.
+Also this pin can connect to the enable pin of a downstream converter. So to enable power sequencing as mentiond above.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
