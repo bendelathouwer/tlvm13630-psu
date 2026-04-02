@@ -1,5 +1,7 @@
  # circuit explenation 
+ 
 <img width="1386" height="763" alt="image" src="https://github.com/user-attachments/assets/92acb776-620f-4e1e-ba3e-62a0b0e64e15" />
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 <img width="1289" height="500" alt="image" src="https://github.com/user-attachments/assets/e5ffb324-af65-499b-9872-8de600953f77" />
 <img width="1259" height="352" alt="image" src="https://github.com/user-attachments/assets/830054c1-61db-43fc-b4b8-8a68b3bad7d9" />
@@ -18,9 +20,15 @@ Any oscilation will upset the comperator which in turn will pass and upset the c
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="607" height="779" alt="image" src="https://github.com/user-attachments/assets/698279ea-bc27-4b47-8393-5dbcf1813ebc" />
+
 Now we will explain the controll pins a bit.
 The first pin we encounter is the Enable pin, which we can use in one of three ways/
-The frist way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present 
+The frist way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present.
+The next posibility is to connect an external signal to the enable pin , this can be a microcontroller for example or this can be the power good signal of a upstream convertor.
+This is done for when powersequencing is needed , an example of power sequencing can be seen below 
+
+<img width="705" height="269" alt="image" src="https://github.com/user-attachments/assets/d3a3bb0a-7185-445d-bfdf-9a643fbe539a" />
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
