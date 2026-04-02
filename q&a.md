@@ -8,4 +8,8 @@ I included both the possibility to have a power good led OR the possibility to f
 I also added he possibility to enable the uvlo by addind the voltage devider , the upper resistor is a 0 ohm jumper and the bottom part is DNP.
 I did this just because ( and especialy in the early stage of development ) to have more wigle room so to speak. With that i mean  board cost money and to make and chip them it takes a lot of time.
 So by addind the footprints for the optional features , it saves me a lot of time and money, the procudtion boards can then be adapted to the findings of the proto.
-
+----------------------------------------------------------------------------------------------------------------------------------------
+<img width="1289" height="500" alt="image" src="https://github.com/user-attachments/assets/e5ffb324-af65-499b-9872-8de600953f77" />
+Now the input circuitry , here you can note a couple of things. First of all the input capasitors, the datasheet demands ceramic capasitors with a dielectricum of X7R.
+Why ceramic capacitors you may ask? because there ESR(equivalent series resitance)<img width="1920" height="543" alt="image" src="https://github.com/user-attachments/assets/0938483a-9792-47bc-87ec-3ddcea421c62" />
+ is low. which in turn means  lower ripel , control loop is stabel, better transient response and the losses are lower 
