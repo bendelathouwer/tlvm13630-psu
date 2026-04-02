@@ -55,4 +55,4 @@ Also the feedback trace needs to be short and and bee kept away to again reduce 
  
 As you can see in the overview of the schematic I have a couple of DNP components, I think we all have been there we have our boards in our hands but then we realise some feature of the chip isn't brought out.
 So after our little cry we have to spend extra money and time on a new board. So with the DNP parts we have already have a footprint there and so we can easly adapt and continue with a smile.
-You will also notice I like to work with collors and net names , the 
+You will also notice I like to work with collors and net names , the reason behind that is realy simple. So I can see 
