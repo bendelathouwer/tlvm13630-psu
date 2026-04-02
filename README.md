@@ -35,7 +35,7 @@ This is handy when we are using batterys for example
 The next pin will be the Rt pin ,this pin sets the internal oscilator via a resistor. We need to be carful to choose this resistor. The higher the frequency the more emc and efficency  will become a problem BUT the components can be smaller.
 The lover the frequency the lower emc will be and the efficency will be higher BUT the components will be bigger 
 
-The next pin is the VCC pin which comes from the external regulator. Now the datasheet meantions multiple times that there shoudn't be any load connected to the VCC pin BUT in the application schematic in the datasheet it show a load (albeit a pull up).
+The next pin is the VCC pin which comes from the external regulator. Now the datasheet mentions multiple times that there shoudn't be any load connected to the VCC pin BUT in the application schematic in the datasheet it show a load (albeit a pull up).
 The EVM schematic shows no load even no pullup connected, so for me it is a mistery if you should or should not connect a load to it.
 
 Next pin is the power good pin , this pin is an open drain pin. This pin will indicate if the convertor works as intended or not.
