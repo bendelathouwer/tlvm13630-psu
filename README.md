@@ -16,7 +16,7 @@ For the output circuitry we especialy want that to be suuper stable , why you ma
 
 <img width="861" height="476" alt="image" src="https://github.com/user-attachments/assets/b752a021-da03-4022-9980-4e703ddd2f6a" />
 
-As you can see from this block diagram of the chip  the feedbac circuitry is connected (via resistors) to the output. So as you can guess and see any oscilation will upset the comperator which in turn will pass and upset the control circuitry
+As you can see from this block diagram of the chip  the feedback circuitry is connected (via resistors) to the output. So as you can guess and see any oscilation will upset the comperator which in turn will pass and upset the control circuitry
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="607" height="779" alt="image" src="https://github.com/user-attachments/assets/698279ea-bc27-4b47-8393-5dbcf1813ebc" />
