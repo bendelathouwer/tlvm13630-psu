@@ -41,7 +41,10 @@ Next pin is the power good pin , this pin is an open drain pin. This pin will in
 Also this pin can connect to the enable pin of a downstream converter. So to enable power sequencing as mentiond above.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
-----------------------------------------
+
+So the final pin is the feedback pin 
+---------------------------------------------------------------------------------------------------------------------------------------
 
  # schematic details  
