@@ -1,6 +1,5 @@
  # circuit explenation 
- 
-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 <img width="1386" height="763" alt="image" src="https://github.com/user-attachments/assets/92acb776-620f-4e1e-ba3e-62a0b0e64e15" />
 
@@ -54,3 +53,6 @@ Also the feedback trace needs to be short and and bee kept away to again reduce 
 
  # schematic details  
  
+As you can see in the overview of the schematic I have a couple of DNP components, I think we all have been there we have our boards in our hands but then we realise some feature of the chip isn't brought out.
+So after our little cry we have to spend extra money and time on new boardd. So with the DNP parts we have already have a footprint there and so we can easly adapt and continue with a smile.
+
