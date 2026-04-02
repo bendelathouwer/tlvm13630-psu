@@ -16,4 +16,6 @@ Any oscilation will upset the comperator which in turn will pass and upset the c
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
- # schematic details  
+----------------------------------------
+
+ #schematic details  
