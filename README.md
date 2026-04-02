@@ -23,7 +23,7 @@ As you can see from this block diagram of the chip  the feedback circuitry is co
 
 Now we will explain the controll pins a bit.
 The first pin we encounter is the Enable pin, which we can use in one of three ways/
-The frist way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present.
+The first way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present.
 The next posibility is to connect an external signal to the enable pin , this can be a microcontroller for example or this can be the power good signal of a upstream convertor.
 This is done for when powersequencing is needed , an example of power sequencing can be seen below.
 
