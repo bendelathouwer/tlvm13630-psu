@@ -19,7 +19,8 @@ Any oscilation will upset the comperator which in turn will pass and upset the c
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="607" height="779" alt="image" src="https://github.com/user-attachments/assets/698279ea-bc27-4b47-8393-5dbcf1813ebc" />
 Now we will explain the controll pins a bit.
-The first pin we 
+The first pin we encounter is the Enable pin, which we can use in one of three ways/
+The frist way is to just tie it to the input voltage , when we do this the convertor will start working whenever a input voltage is present 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
