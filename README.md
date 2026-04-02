@@ -45,7 +45,7 @@ Also this pin can connect to the enable pin of a downstream converter. So to ena
 
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
 
-So the final pin is the feedback pin with it's resistor diverder , this voltage devider will set the input voltage at the input of the controll circuit comperator.
+So the final pin is the feedback pin with it's resistor diverder , this voltage divider will set the input voltage at the input of the controll circuit comperator.
 The lower resistor is recomended at 10K and the upper can be a calculated value BUT be awere resistors larger than 1M can introduce noise which in turn will upset the controll circuitry.
 Also the feedback trace needs to be short and and bee kept away to again reduce noise.
 
