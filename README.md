@@ -31,6 +31,12 @@ This is done for when powersequencing is needed , an example of power sequencing
 
 The next and last posebility is to add a voltage devider so we enable the UVLO(Under Voltage Lock Out). This will disable the convertor until a certain voltage is reached or disable the convertor if a voltage dips below a treshold.
 This is handy when we are using batterys for example 
+
+The next pin is the VCC pin which comes from the external regulator. Now the datasheet meantions multiple times that there shoudn't be any load connected to the VCC pin BUT in the application schematic in the datasheet it show a load (albeit a pull up).
+The EVM schematic shows no load even no pullup connected, so for me it is a mistery if you should or should not connect a load to it.
+
+Next pin is the power good pin , this pin
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="1086" height="307" alt="image" src="https://github.com/user-attachments/assets/bde3d319-19b2-42d1-a2b8-02bdc089ebce" />
 ----------------------------------------
